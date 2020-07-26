@@ -1,11 +1,6 @@
-import React from "react";
-
+import React, { useState } from "react";
 function App() {
-  return (
-    <div className="app-root">
-      <p>miami</p>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
