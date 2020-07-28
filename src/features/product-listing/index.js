@@ -1,15 +1,10 @@
 import React from "react";
-// const products = "../../data/products.json";
 import ProductListItem from "./product-list-item";
-const ProductListing = (props) => {
-  console.log(props);
-  return (
-    <div>
-      {/* {props.products.map((product) => {
-        <ProductListItem product={product} />;
-      })} */}
-    </div>
-  );
-};
-
-export default ProductListing;
+export default function ProductListing(props) {
+  let { products } = props;
+  return <div>
+    {products.map((product) => {
+      return <ProductListItem key={product.id} product={product} />;
+    })}
+  </div>
+}
