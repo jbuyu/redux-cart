@@ -14,14 +14,24 @@ nav ul {
 nav ul li a {
   margin-right: 40px;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
- .product-listing {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
- }
- .product-listing .product-list-item{
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.product-listing .product-list-item {
   margin: 10px 30px;
-  flex: 1;
-
-  }
+  flex: 1 0 21%;
+  flex-direction: column;
+  -webkit-box-shadow: 10px 10px 13px 3px rgba(209, 194, 209, 0.71);
+  -moz-box-shadow: 10px 10px 13px 3px rgba(209, 194, 209, 0.71);
+  box-shadow: 10px 10px 13px 3px rgba(209, 194, 209, 0.71);
+}
+.description,
+.price {
+  margin-left: 10px;
+  margin-right: 10px;
+}

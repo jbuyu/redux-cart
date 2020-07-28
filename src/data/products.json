@@ -4,13 +4,9 @@
       "id": 1,
       "name": "I am Groot",
       "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": [
-        "stuffed", "plush", "groot", "guardians of the galaxy"
-      ],
+      "keywords": ["stuffed", "plush", "groot", "guardians of the galaxy"],
       "image": "1-groot.jpg",
-      "age": [
-        "0", "+"
-      ],
+      "age": ["0", "+"],
       "price": 19.99
     },
     {
@@ -18,52 +14,68 @@
       "name": "Buzz Lightyear Action Doll",
       "description": "Buzz Lightyear is a favorite of youngsters. He has a ray-gun, wings that can be retracted or extended on the push of a button, and a grin that could make any alien get a chill up their spine - should they have one.",
       "keywords": [
-        "action figure", "toy story", "posable", "requires batteries"
+        "action figure",
+        "toy story",
+        "posable",
+        "requires batteries"
       ],
       "image": "2-buzz.jpg",
-      "age": [
-        "3", "10"
-      ],
-      "price": 38.50
+      "age": ["3", "10"],
+      "price": 38.5
     },
     {
       "id": 3,
       "name": "Minion Dave",
       "description": "Dave is a two-eyed and medium-sized minion with nice combed hair. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
-      "keywords": [
-        "stuffed", "plush", "minions", "Despicable Me"
-      ],
+      "keywords": ["stuffed", "plush", "minions", "Despicable Me"],
       "image": "3-minion-dave.jpg",
-      "age": [
-        "0", "10"
-      ],
+      "age": ["0", "10"],
       "price": 12.99
     },
     {
       "id": 4,
       "name": "Minion Kevin",
       "description": "Kevin is a tall, two-eyed minion with sprout cut hair and is usually seen wearing his golf apparel. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
-      "keywords": [
-        "stuffed", "plush", "minions", "Despicable Me"
-      ],
+      "keywords": ["stuffed", "plush", "minions", "Despicable Me"],
       "image": "4-minion-kevin.jpg",
-      "age": [
-        "0", "10"
-      ],
+      "age": ["0", "10"],
       "price": 12.99
     },
     {
       "id": 5,
       "name": "Minion Bob",
       "description": "Bob is a short and bald minion with multi-colored eyes (green and brown). He often carries around a teddy bear that he owns called Tim, which is brown with yellow buttoned eyes. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
-      "keywords": [
-        "stuffed", "plush", "minions", "Despicable Me"
-      ],
+      "keywords": ["stuffed", "plush", "minions", "Despicable Me"],
       "image": "5-minion-bob.jpg",
-      "age": [
-        "0", "10"
-      ],
+      "age": ["0", "10"],
       "price": 12.99
+    },
+    {
+      "id": 6,
+      "name": "Logo city",
+      "description": "Help maintain the LEGO® City streets with the sturdy 60219 Construction Loader! This iconic construction toy set features a loader with raising front arm, tilting bucket and a roll cage, plus a small fence, jackhammer, buildable pile of concrete and a minifigure..",
+      "keywords": ["Logo", "city"],
+      "image": "6-logo-city.jpg",
+      "age": ["0", "10"],
+      "price": 14.99
+    },
+    {
+      "id": 7,
+      "name": "Logo Toy Story",
+      "description": "Build a colorful carnival playset complete with shooting game with large sign, laser cannon and a Starter Brick baseplate, a spinning ride with adjustable arms, plus an ice cream shop with register, as well as 2 toy bumper cars with special Starter",
+      "keywords": ["Logo", "Toy story"],
+      "image": "7-lego-toy-story.jpg",
+      "age": ["0", "10"],
+      "price": 14.99
+    },
+    {
+      "id": 8,
+      "name": "Logo Bat Mobile",
+      "description": "This display model includes 3 LEGO minifigures: a Batman figure with a cape, The Joker action figure with a gun and Vicki Vale figure with a buildable camera, plus a brick-built minifigure display stand",
+      "keywords": ["Logo", "Bat Mobile"],
+      "image": "8-lego-batmobile.jpg",
+      "age": ["0", "10"],
+      "price": 14.99
     }
   ]
 }
