@@ -24,7 +24,8 @@ nav ul li a {
   color: #7a73ff;
 }
 nav ul li a:hover {
-  color: #80e9ff;
+  color: #0a2540;
+  text-decoration: underline;
 }
 .page-container {
   width: 80%;
