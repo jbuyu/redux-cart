@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 export default function ProductListItem(props) {
-  return <div>
-    <h3>{props.product.name}</h3>
+  return <div className="product-list-item">
+    <h5>{props.product.name}</h5>
     <img
       height={100}
       src={`/products/${props.product.image}`}

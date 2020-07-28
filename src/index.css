@@ -1,13 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-align: center;
   margin-top: 20px;
   list-style-type: none;
   margin-left: 20px;
@@ -16,3 +15,13 @@ nav ul li a {
   margin-right: 40px;
   text-decoration: none;
 }
+ .product-listing {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ }
+ .product-listing .product-list-item{
+  margin: 10px 30px;
+  flex: 1;
+
+  }
