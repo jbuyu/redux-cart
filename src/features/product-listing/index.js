@@ -7,7 +7,13 @@ function ProductListing(props) {
   return (
     <div className="product-listing">
       {products.map((product) => {
-        return <ProductListItem key={product.id} product={product} />;
+        return (
+          <ProductListItem
+            addToCart={props.addToCart}
+            key={product.id}
+            product={product}
+          />
+        );
       })}
     </div>
   );

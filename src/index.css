@@ -21,6 +21,10 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  color: #7a73ff;
+}
+nav ul li a:hover {
+  color: #80e9ff;
 }
 .page-container {
   width: 80%;
@@ -45,4 +49,17 @@ nav ul li a {
 .price {
   margin-left: 10px;
   margin-right: 10px;
+}
+.items-added {
+  color: white;
+  background-color: #7a73ff;
+  margin-left: 2px 2px;
+  /* margin-right: 3px; */
+  border-radius: 10px;
+  font-size: 1.25em;
+  padding: 1px 1px 1px 1px;
+}
+.add-btn {
+  margin-left: 10px;
+  margin-top: 10px;
 }
