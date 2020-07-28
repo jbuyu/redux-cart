@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   /* text-align: center; */
+  width: 100%;
+  /* background-color: whitesmoke; */
+}
+* {
+  box-sizing: content-box;
 }
 nav ul {
   display: flex;
@@ -16,6 +21,12 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+}
+.page-container {
+  width: 80%;
+  margin: 10px auto;
+  /* background-color: white; */
+  padding: 30px;
 }
 .product-listing {
   display: flex;

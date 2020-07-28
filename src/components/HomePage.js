@@ -3,6 +3,8 @@ import data from "../data/products.json";
 import ProductListing from "../features/product-listing";
 export default function HomePage() {
   return (
-    <ProductListing products={data.products} />
+    <div className="page-container">
+      <ProductListing products={data.products} />
+    </div>
   );
 }
