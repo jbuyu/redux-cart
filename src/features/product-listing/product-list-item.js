@@ -3,7 +3,9 @@ import { connect } from "react-redux";
 function ProductListItem(props) {
   let { product } = props;
   let { addToCart } = props;
-  const thisItemInCart = props.cart.filter((item) => item.id === product.id);
+  const thisItemInCart = props.cart.filter(
+    (item) => item.id === props.product.id
+  )[0];
   console.log(thisItemInCart);
   return (
     <div className="product-list-item">
@@ -19,7 +21,7 @@ function ProductListItem(props) {
         <button className="add-btn" onClick={() => addToCart(props.product)}>
           Add
           {thisItemInCart && (
-            <span className="items-added">{thisItemInCart.length || 0}</span>
+            <span className="items-added">{thisItemInCart.quantity || 0}</span>
           )}
         </button>
       </div>
@@ -27,10 +29,10 @@ function ProductListItem(props) {
   );
 }
 
-function mapStateToProps(state) {
-  return {
-    cart: state.cart,
-  };
-}
+// function mapStateToProps(state) {
+//   return {
+//     cart: state.cart,
+//   };
+// }
 
-export default connect(mapStateToProps)(ProductListItem);
+export default ProductListItem;

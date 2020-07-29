@@ -45,6 +45,7 @@ nav ul li a:hover {
   -webkit-box-shadow: 10px 10px 13px 3px rgba(209, 194, 209, 0.71);
   -moz-box-shadow: 10px 10px 13px 3px rgba(209, 194, 209, 0.71);
   box-shadow: 10px 10px 13px 3px rgba(209, 194, 209, 0.71);
+  width: 200px;
 }
 .description,
 .price {
