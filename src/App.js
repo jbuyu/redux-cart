@@ -1,16 +1,21 @@
 import React, { useState } from "react";
 import Router from "./Router";
 import { NavLink } from "react-router-dom";
-
-const Navigation = () => {
+import { connect } from "react-redux";
+const Navigation = (props) => {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">
+            <i className="fas fa-home"></i>
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/cart">Cart</NavLink>
+          <NavLink to="/cart">
+            <i className="fas fa-cart-arrow-down"></i>
+            {/* <span>{props.cart.length}</span> */}
+          </NavLink>
         </li>
       </ul>
     </nav>
@@ -26,4 +31,10 @@ function App() {
   );
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    cart: state.cart,
+  };
+}
+
+export default connect(mapStateToProps)(App);
