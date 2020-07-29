@@ -7,7 +7,7 @@ const sort = (items) => {
 
 function Cart(props) {
   return (
-    <table>
+    <table style={{ width: "50%" }}>
       <thead>
         <tr>
           <th>Item</th>
@@ -18,12 +18,17 @@ function Cart(props) {
       </thead>
       <tbody>
         {sort(props.cart).map((item) => (
-          <tr>
+          <tr key={item.id}>
             <td>{item.name}</td>
             <td>{item.quantity}</td>
             <td>
               <button onClick={(e) => props.addToCart(item)}>+</button>
-              <button onClick={(e) => props.removeFromCart(item)}>-</button>
+              <button
+                style={{ marginLeft: "5px" }}
+                onClick={(e) => props.removeFromCart(item)}
+              >
+                -
+              </button>
             </td>
             {/* <td>
               <button onClick={(e) => props.removeAllFromCart(item)}>
