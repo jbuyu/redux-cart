@@ -3,7 +3,7 @@ body {
   padding: 0;
   /* text-align: center; */
   width: 100%;
-  /* background-color: whitesmoke; */
+  background-color: black;
 }
 * {
   box-sizing: content-box;
