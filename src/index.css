@@ -69,3 +69,7 @@ nav ul li a:hover {
   color: #7a73ff;
   margin-left: 4px;
 }
+.cart {
+  display: flex;
+  justify-content: center;
+}
