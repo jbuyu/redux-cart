@@ -13,7 +13,9 @@ function ProductListing(props) {
             addToCart={props.addToCart}
             key={product.id}
             product={product}
-            cart={cartItemsWithQuantity(props.cart)}
+            cartItem={
+              props.cart.filter((cartItem) => cartItem.id === product.id)[0]
+            }
           />
         );
       })}

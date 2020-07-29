@@ -3,10 +3,6 @@ import { connect } from "react-redux";
 function ProductListItem(props) {
   let { product } = props;
   let { addToCart } = props;
-  const thisItemInCart = props.cart.filter(
-    (item) => item.id === props.product.id
-  )[0];
-  console.log(thisItemInCart);
   return (
     <div className="product-list-item">
       <h5>{product.name}</h5>
@@ -20,8 +16,8 @@ function ProductListItem(props) {
       <div>
         <button className="add-btn" onClick={() => addToCart(props.product)}>
           Add
-          {thisItemInCart && (
-            <span className="items-added">{thisItemInCart.quantity || 0}</span>
+          {props.cartItem && (
+            <span className="items-added">{props.cartItem.quantity || 0}</span>
           )}
         </button>
       </div>
