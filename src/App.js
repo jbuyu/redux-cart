@@ -15,7 +15,9 @@ const Navigation = (props) => {
           <NavLink to="/cart">
             <i className="fas fa-cart-arrow-down"></i>
             {props.cart && (
-              <span className="total-added">{props.cart.length}</span>
+              <span className="total-added">
+                {props.cart.reduce((a, b) => +a + +b.quantity, 0)}
+              </span>
             )}
           </NavLink>
         </li>

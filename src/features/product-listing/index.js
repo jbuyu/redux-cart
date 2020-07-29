@@ -11,6 +11,7 @@ function ProductListing(props) {
         return (
           <ProductListItem
             addToCart={props.addToCart}
+            removeFromCart={props.removeFromCart}
             key={product.id}
             product={product}
             cartItem={
