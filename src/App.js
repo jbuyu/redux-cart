@@ -14,7 +14,9 @@ const Navigation = (props) => {
         <li>
           <NavLink to="/cart">
             <i className="fas fa-cart-arrow-down"></i>
-            {/* <span>{props.cart.length}</span> */}
+            {props.cart && (
+              <span className="total-added">{props.cart.length}</span>
+            )}
           </NavLink>
         </li>
       </ul>
@@ -22,10 +24,10 @@ const Navigation = (props) => {
   );
 };
 
-function App() {
+function App(props) {
   return (
     <div>
-      <Navigation />
+      <Navigation {...props} />
       <Router />
     </div>
   );
